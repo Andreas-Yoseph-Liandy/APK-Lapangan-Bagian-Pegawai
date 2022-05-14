@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_backgroundhome_pegawai"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Home.HomeActivity">
+
+    //Judul
+
+    //Logo
+
+    //Button
+
+    <Button
+        android:id="@+id/buttonVilla"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/buttoncustom"
+        android:drawableBottom="@drawable/ic_iconvila"
+        android:text="Vila"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonHotel"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttoncustom"
+        android:drawableBottom="@drawable/ic_iconhotel"
+        android:paddingTop="10dp"
+        android:text="Hotel"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonBamboo"
+        android:layout_width="126dp"
+        android:layout_height="102dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttoncustom"
+        android:drawableBottom="@drawable/ic_iconbamboo"
+        android:text="Bamboo Village"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

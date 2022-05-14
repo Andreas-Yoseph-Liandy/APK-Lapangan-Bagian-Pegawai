@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1014053236702",
+    "firebase_url": "https://viblapanganproject-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "viblapanganproject",
+    "storage_bucket": "viblapanganproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014053236702:android:c8a8fbad8fd13ce708f74f",
+        "android_client_info": {
+          "package_name": "com.example.vibprojectmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014053236702-c7kn6qf29d3ueuljm2hfj2dqck6au235.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvsF1OjOuL878pSLWeUgxh5-RRR7I5fzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014053236702-c7kn6qf29d3ueuljm2hfj2dqck6au235.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Form.FormVilla"
+    android:background="@drawable/ic_background_tampilanvilla">
+
+    <EditText
+        android:id="@+id/form_namaPengirim"
+        android:layout_width="match_parent"
+        android:background="@color/kuningMuda"
+        android:layout_height="38dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:hint=" Nama Pengirim :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_tanggalKirim"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/kuningMuda"
+        android:hint=" Tanggal Kirim :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_pembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/kuningMuda"
+        android:hint=" Pembayaran :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_cleaning"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/kuningMuda"
+        android:hint=" Cleaning :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_jenisVilla"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/kuningMuda"
+        android:hint=" Jenis Villa :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_catatan"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/kuningMuda"
+        android:hint=" Catatan :"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button_tambahLaporan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/oren"
+        android:hint="TAMBAH LAPORAN"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

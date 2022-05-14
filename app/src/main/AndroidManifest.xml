@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vibprojectmobile" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_vib"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_vib_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Vibprojectmobile" >
+        <activity
+            android:name=".Form.FormBamboo"
+            android:exported="false" />
+        <activity
+            android:name=".Tampilan.BambooTampilan"
+            android:exported="false" />
+        <activity
+            android:name=".Tampilan.HotelTampilan"
+            android:exported="false" />
+        <activity
+            android:name=".Form.FormHotel"
+            android:exported="false" />
+        <activity
+            android:name=".Form.FormVilla"
+            android:exported="false" />
+        <activity
+            android:name=".Tampilan.VillaTampilan"
+            android:exported="false" />
+        <activity
+            android:name=".Home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingScreen.MainActivityLoadingScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

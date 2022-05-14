@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="merah">#BD395F</color>
+    <color name="ungu">#5D31B9</color>
+    <color name="hijau">#54BA41</color>
+    <color name="tulisanVIBLoading">#4660AC</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="oren">#C8A730</color>
+    <color name="kuningMuda">#FAF7BE</color>
+    <color name="orenHome">#C8A730</color>
+    <color name="biru">#24B3DD</color>
+    <color name="orenButton">#DDA707</color>
+
+</resources>

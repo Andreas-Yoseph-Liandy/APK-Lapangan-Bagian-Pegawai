@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Form.FormHotel"
+    android:background="@drawable/ic_background_tampilanvilla">
+
+    <EditText
+        android:id="@+id/form_namaPengirimHotel"
+        android:layout_width="match_parent"
+        android:background="@color/biru"
+        android:layout_height="38dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:hint=" Nama Pengirim :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_tanggalKirimHotel"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/biru"
+        android:hint=" Tanggal Kirim :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_pembayaranHotel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/biru"
+        android:hint=" Pembayaran :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_cleaningHotel"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/biru"
+        android:hint=" Cleaning :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_jenisHotel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/biru"
+        android:hint=" Jenis Hotel :"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/form_catatanHotel"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/biru"
+        android:hint=" Catatan :"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button_tambahLaporanHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/oren"
+        android:hint="TAMBAH LAPORAN"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
